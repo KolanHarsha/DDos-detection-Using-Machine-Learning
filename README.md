@@ -1,1 +1,12 @@
 # DDos-detection-in-layer7-of-Networking-Using-Machine-Learning
+## **What is DDOs(Distributed denial of service)?**
+A Distributed Denial of Service (DDoS) attack is a malicious attempt to disrupt the regular functioning of a network, service, website, or online resource by overwhelming it with a flood of internet traffic. In a DDoS attack, multiple compromised computers or devices (often referred to as "botnets") are coordinated to send an excessive volume of data requests or traffic to the target, making it difficult or impossible for legitimate users to access the targeted resource. A ddos attack usually occurs in layer-7(Application-layer),layer-4(Transport-layer) and layer-3(Network-layer) of the Networking model. In this work we try to detect a DDos attack in the layer-7 using machine-learning algorithms(Random-forests and Gradient-Boosting).
+## **What is a Botnet**
+A botnet is a network of compromised computers or devices controlled by a single entity, often a cybercriminal or hacker, without the owners' knowledge. These compromised devices, referred to as "bots" or "zombies," can be infected with malware, allowing the attacker to commandeer them remotely.
+In DDoS attacks, botnets are used to amplify and distribute attack traffic. The attacker instructs the bots to simultaneously send a flood of requests to the target, overwhelming its resources. Since botnets can consist of thousands or even millions of devices, they generate a massive volume of traffic, making it difficult for the target to distinguish legitimate requests from the malicious ones.
+## **Different types of DDos attacks in layer-7**
+### **Slowloris attack**
+A Slowloris attack is a type of DDoS attack that targets web servers. It works by opening multiple connections to the server and sending partial HTTP requests, keeping them open by sending data very slowly. This ties up server resources, preventing new connections and legitimate requests. Slowloris doesn't require a large number of attacking machines, making it hard to detect. It focuses on resource exhaustion, causing the server to become slow or unresponsive.
+### **HTTP GET/POST flood attack**
+An HTTP GET/POST flood attack is a type of DDoS attack that targets web servers. Attackers send a massive number of GET or POST requests to overwhelm the server's capacity. GET requests retrieve data, while POST requests send data to the server, both tying up server resources. This flood of requests can slow down or crash the server, making the targeted website or application inaccessible. 
+## ** **
