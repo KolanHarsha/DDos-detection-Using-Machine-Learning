@@ -1,4 +1,4 @@
-# DDos-detection-in-layer7-of-Networking-Using-Machine-Learning
+# DDos-detection-Using-Machine-Learning
 ## **What is DDOs(Distributed denial of service)?**
 A Distributed Denial of Service (DDoS) attack is a malicious attempt to disrupt the regular functioning of a network, service, website, or online resource by overwhelming it with a flood of internet traffic. In a DDoS attack, multiple compromised computers or devices (often referred to as "botnets") are coordinated to send an excessive volume of data requests or traffic to the target, making it difficult or impossible for legitimate users to access the targeted resource. A ddos attack usually occurs in layer-7(Application-layer),layer-4(Transport-layer) and layer-3(Network-layer) of the Networking model. In this work we try to detect a DDos attack in the layer-7 using machine-learning algorithms(Random-forests and Gradient-Boosting).
 ## **What is a Botnet**
