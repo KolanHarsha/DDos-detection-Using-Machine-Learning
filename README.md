@@ -11,3 +11,40 @@ A Slowloris attack is a type of DDoS attack that targets web servers. It works b
 An HTTP GET/POST flood attack is a type of DDoS attack that targets web servers. Attackers send a massive number of GET or POST requests to overwhelm the server's capacity. GET requests retrieve data, while POST requests send data to the server, both tying up server resources. This flood of requests can slow down or crash the server, making the targeted website or application inaccessible. 
 ## **Dataset description**
 The dataset has two sets balanced dataset and imbalanced dataset both with 84 features. The balanced dataset has 50% benign flows and 50% Ddos flows. The main goal of this work is to detect ddos attacks in application layers in which the  attack traffic is in smaller proportion when compared to benign flows hence imbalnced dataset is used which has 83% benign flows and 17% Ddos flows. The total number of benign flows in imbalnced dataset are 6321980 and total number of Ddos flows in the imbalanced dataset are 1294529.
+## **<img width="291" alt="Screenshot 2023-10-09 215033" src="https://github.com/KolanHarsha/DDos-detection-Using-Machine-Learning/assets/110462466/1161405f-2586-4911-ab09-be2f82675f6b">**
+## **Tools**
+<img src="https://github.com/KolanHarsha/DDos-detection-Using-Machine-Learning/assets/110462466/88e29b73-06a2-48ac-8e80-0cd755dd980e" alt="jup" width="150" height="100">
+<img src="https://github.com/KolanHarsha/DDos-detection-Using-Machine-Learning/assets/110462466/91408e94-709a-4639-b3ce-72995848c519" alt="azure" width="175" height="100">
+
+## **How to run the Notebook**
+### **Install Neccessary packages**
+Ip-Address:
+```bash
+pip install ipaddress
+ ```
+Numpy:
+```bash
+pip install numpy
+ ```
+Pandas:
+```bash
+pip install pandas
+ ```
+Matplotlib:
+```bash
+pip install matplotlib
+ ```
+Seaborn:
+```bash
+pip install seaborn
+ ```
+Scikit-learn:
+```bash
+pip install scikit-learn
+ ```
+### **Running on Azure Cloud Platform**
+1. Go to the [Azure Machine Learning ](https://azure.microsoft.com/en-us/products/machine-learning) platform and launch Azure Machine learning studio.
+2. Once the studio is launched go to the compute section and choose a compute instance. The compute instace which I choosed has the following specifications Standard_E8s_v3 
+   (8 cores, 64 GB RAM, 128 GB disk).
+3. After the compute instance is created launch the jupyter notebook which can be found again in the compute section.
+4. Install the packages which I mentioned above and run the "Ddos.pynb" file.
